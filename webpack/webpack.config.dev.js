@@ -5,7 +5,6 @@ module.exports = {
     mode: 'development',
     entry: './src/index.js',
     devServer: {
-        contentBase: './dist',
         hot: true,
         static: './dist',
     },
